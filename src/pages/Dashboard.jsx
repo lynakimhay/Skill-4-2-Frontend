@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import {
   getTotalFarmers,
 } from '../api/summary';
-import '../styles/Dashboard.css'
-
+import '../styles/Dashboard.css';
+import '../components/Header';
 const Dashboard = () => {
   const [totalFarmers, setTotalFarmers] = useState(0);
 
