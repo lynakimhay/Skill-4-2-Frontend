@@ -30,15 +30,15 @@ const Dashboard = () => {
             <p>{totalFarmers}</p>
           </div>
           <div className="dashboard-stat">
-            <h3>Total Farmers</h3>
+            <h3>Total Farmlands</h3>
             <p>{totalFarmers}</p>
           </div>
           <div className="dashboard-stat">
-            <h3>Total Farmers</h3>
+            <h3>Total Active crop cycles</h3>
             <p>{totalFarmers}</p>
           </div>
           <div className="dashboard-stat">
-            <h3>Total Farmers</h3>
+            <h3>Total Size of Farmland</h3>
             <p>{totalFarmers}</p>
           </div>
         </div>
