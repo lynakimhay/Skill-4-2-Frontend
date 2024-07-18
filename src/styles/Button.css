@@ -3,10 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 .btn {
-    padding: 30px;
+    /* padding: 30px; */
     display: flex;
     justify-content: end;
     gap: 15px;
+    
 }
 .drop-down {
     background-color: #0077ff;
@@ -18,6 +19,9 @@ body {
     cursor: pointer;
     width: 230px;
     position: relative;
+    margin-top: 20px;
+    
+   
 }
 
 .drop-down:focus {
@@ -36,4 +40,5 @@ body {
     border-top: 6px solid white;
     transform: translateY(-50%);
     pointer-events: none;
+    margin-left: 100px;
 }
