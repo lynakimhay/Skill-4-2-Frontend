@@ -1,6 +1,5 @@
 import ButtonDestrict from "../components/BottonDestrict";
 import Button from "../components/Button";
-import Table from "../components/Table";
 
 
 import React,{ useState,useEffect} from "react";
@@ -24,40 +23,40 @@ function Farmers() {
   },[])
   return (
     <>
-    <div className="btn">
-    <Button/><ButtonDestrict/>
-    </div>
-   
-    <table>
-      <thead>
-        <tr>
-          <th>No</th>
-          <th>IDCard</th>
-          <th>First Name</th>
-          <th>Last Name</th>
-          <th>Gender</th>
-          <th>Phone</th>
-          <th>Source</th>
-          <th>Province</th>
-          <th>Active</th>
-        </tr>
-      </thead>
+      <div className="btn">
+      <Button/><ButtonDestrict/>
+        </div>
+      
+      <table>
+<thead>
+  <tr>
+    <th>No</th>
+    <th>IDCard</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Gender</th>
+    <th>Phone</th>
+    <th>Source</th>
+    <th>Province</th>
+    <th>Active</th>
+  </tr>
+  </thead>
       <tbody>
         {farmers.map((farmer,index)=>(
           <tr key={farmer.id}>
-            <td>{index + 1}</td>
-            <td>{farmer.id_card}</td>
-            <td>{farmer.first_name}</td>
-            <td>{farmer.last_name}</td>
-            <td>{farmer.gender}</td>
-            <td>{farmer.phone}</td>
-            <td>{farmer.source}</td>
-            <td>{farmer.district_id}</td>
-            <td>Edit</td>
-          </tr>
-        ))}
+    <td>{index + 1}</td>
+    <td>{farmer.id_card}</td>
+    <td>{farmer.first_name}</td>
+    <td>{farmer.last_name}</td>
+    <td>{farmer.gender}</td>
+    <td>{farmer.phone}</td>
+    <td>{farmer.source}</td>
+    <td>{farmer.district_id}</td>
+    <td>Edit</td>
+  </tr>
+  ))}
       </tbody>
-    </table>
+</table>
     </>
   );
 };
