@@ -1,8 +1,10 @@
-function CropCycles(){
+
+function CropCycles() {
     return (
-        <div className="menu">
-          <h1>Hi CropCycles</h1>
-        </div>
-      );
-}
-export default CropCycles;
+      <>
+        <h1>Hi Crop Cycles</h1>
+      </>
+    );
+  }
+  
+  export default CropCycles;

@@ -1,6 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
 .btn {
-    padding: 15px;
+    /* padding: 30px; */
     display: flex;
     justify-content: end;
     gap: 15px;
+    
+}
+.drop-down {
+    background-color: #0077ff;
+    color: white;
+    padding: 15px 20px 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 230px;
+    position: relative;
+    margin-top: 20px;
+    
+   
+}
+
+.drop-down:focus {
+    outline: none;
+}
+
+.drop-down::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid white;
+    transform: translateY(-50%);
+    pointer-events: none;
+    margin-left: 100px;
 }

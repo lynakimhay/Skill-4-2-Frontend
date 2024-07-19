@@ -1,9 +1,8 @@
-import Table from "../components/Table";
+import Farmlandtable from "../components/Farmlandtable";
 function Farmland() {
   return (
     <>
-      <h1>Hi Farmlands</h1>
-      <Table></Table>
+      <Farmlandtable/>
     </>
   );
 }
