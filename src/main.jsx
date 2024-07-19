@@ -7,7 +7,9 @@ import "./index.css";
 import App from "./App";
 import Farmland from "./pages/Farmland";
 import Cropcycle from "./pages/Cropcycle";
+
 import Accounts from "./pages/Accounts";
+
 
 
 const router = createBrowserRouter([
@@ -31,10 +33,12 @@ const router = createBrowserRouter([
       {
         path: "/cropcycles",
         element: <Cropcycle />
+
       },
       {
         path: "/accounts",
         element: <Accounts />
+
       }
     ]
   },

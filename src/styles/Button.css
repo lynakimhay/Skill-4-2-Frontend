@@ -1,14 +1,15 @@
-
 body {
     font-family: Arial, sans-serif;
 }
+
 .btn {
     /* padding: 30px; */
     display: flex;
     justify-content: end;
     gap: 15px;
-    
+
 }
+
 .drop-down {
     background-color: #0077ff;
     color: white;
@@ -20,8 +21,8 @@ body {
     width: 230px;
     position: relative;
     margin-top: 20px;
-    
-   
+
+
 }
 
 .drop-down:focus {

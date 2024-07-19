@@ -3,8 +3,10 @@ import Button from "../components/Button";
 import Table from "../components/Table";
 
 
+
 import React,{ useState,useEffect} from "react";
 import API_BASE_URL from '../config'
+
 function Accounts() {
   const [accounts,setAccounts]=useState([]);
   useEffect(()=>{
@@ -56,3 +58,4 @@ function Accounts() {
   }
   
   export default Accounts;
+

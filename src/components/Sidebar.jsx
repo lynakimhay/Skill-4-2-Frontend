@@ -17,7 +17,11 @@ function Sidebar() {
             <NavLink to="/farmlands">Farmlands</NavLink>
           </li>
           <li>
+
             <NavLink to="/cropcycles">crop-cycles</NavLink>
+
+            <NavLink to="/cropcycles">Crop cycles</NavLink>
+
           </li>
           <li>
             <NavLink to="/Accounts">Accounts</NavLink>
