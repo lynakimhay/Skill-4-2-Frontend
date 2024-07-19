@@ -46,3 +46,35 @@ export const getTotalFarmLandsSize = async () => {
 
 
 
+export const getTotalFarmlands = async () => {
+  try {
+    const response = await summaryAPI.get('/total-farmlands');
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching total farmlands:', error);
+    throw error;
+  }
+};
+
+export const getTotalCropcycle = async () => {
+  try {
+    const response = await summaryAPI.get('/active-crop-cycle');
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching total cropcycle:', error);
+    throw error;
+  }
+};
+
+export const getTotalFarmlandsize = async () => {
+  try {
+    const response = await summaryAPI.get('/total-farmlandsize');
+    return response.data;
+  } catch (error) {
+    console.error('Error fetching total farmlandsize:', error);
+    throw error;
+  }
+};
+
+
+
