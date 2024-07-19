@@ -24,3 +24,6 @@ th {
 tr:nth-child(even) {
     background-color: #7ffcfc;
 }
+tr:hover{
+    background-color:beige;
+}
