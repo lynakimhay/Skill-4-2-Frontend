@@ -10,7 +10,7 @@ td {
     border: 1px solid #000000;
     text-align: left;
     padding: 8px;
-
+    
 }
 
 th {
@@ -23,9 +23,9 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #7ffcfc;
+    background-color: beige;
 }
 
 tr:hover{
-    background-color:beige;
+    background-color:rgb(212, 212, 208);
 }

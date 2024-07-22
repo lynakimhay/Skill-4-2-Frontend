@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/main
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://breife9-agro.vercel.app/api';
 
 export default API_BASE_URL;

@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import '../styles/Sidebar.css';
 
 function Sidebar() {
   return (
@@ -18,9 +19,7 @@ function Sidebar() {
           </li>
           <li>
 
-            <NavLink to="/cropcycles">crop-cycles</NavLink>
-
-            <NavLink to="/cropcycles">Crop cycles</NavLink>
+            <NavLink to="/cropcycles">Crop Cycles</NavLink>
 
           </li>
           <li>
